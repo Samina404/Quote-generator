@@ -1,0 +1,102 @@
+body{
+background-image: url(https://image.freepik.com/free-vector/laughing-emoji-social-media-message-background-copy-space_95169-1323.jpg);
+background-size: cover;
+background-color: #a5b092d8;
+background-blend-mode: multiply;
+background-position: center;
+background-position: relative;
+
+
+
+}
+@media (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Styles for desktops (1024px and up) */
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+    }
+}
+
+
+
+.container{
+    background-color: #dfe767fd;
+  margin: 30px 0px 0px 350px; 
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vh;
+    font-family: Arial, sans-serif; 
+    border: 2px solid #333;
+    border-radius: 10px;
+    
+    
+   
+   }
+.button{
+    padding:30px ;
+    margin: 30px;
+    box-shadow: 0 0 20px #1eff8b, 0 0 40p, 0 0 60px #1eff8b;
+            transition: all 0.3s ease-in-out;
+            padding: 10px 20px;
+            cursor: pointer;
+   
+   
+}
+#btn{
+    background-color: rgba(15, 14, 14, 0.99);
+    color:white;
+    cursor: pointer;
+    margin: 10px;
+   
+
+    
+    
+}
+#btn2{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.container h1{
+    text-align: center;
+    text-decoration:underline;
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+
+    
+    /* border: 2px solid #333; */
+    border-radius: 10px;
+
+}
+.one{
+    text-align: center;
+            padding: 20px;
+            font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+           
+   
+}
+#quote{
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:x-large;
+}
+#author{
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:larger;
+}
+.button :hover{
+    box-shadow: 0 0 30px #1e90ff, 0 0 60px #1e90ff, 0 0 90px #1e90ff;
+            background-color: #007acc;
+}
